@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Voucher Code</title>
+</head>
+<body style = 'background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+background-repeat: no-repeat;height: 100%;margin: 0;'>
+<div  align = 'center'>
+  <h1 style = 'font-family:Open Sans; position:relative; top:180px; color:black;'>
+  PLEASE ENTER YOUR VOUCHER CODE </h1>
+  <form action = '/voucher_status/' method= 'GET' style = 'font-family:Open Sans'>
+      {% csrf_token %}
+      <table style = 'font-size: 17pt; position:relative; top:210px; color:black;'>
+      {{form.as_table}}
+      </table>
+      <input type="submit" value="ENTER" style = 'position:relative; top:230px;
+      font-size: 17pt; background-color: #02141a; padding: 10px 24px; color:white;
+      ' />
+  </form>
+</div>
+</body>
+</html>
