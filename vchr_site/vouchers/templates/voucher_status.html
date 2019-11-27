@@ -1,0 +1,33 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Voucher Status</title>
+</head>
+<body style = 'background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+background-repeat: no-repeat;height: 100%;margin: 0;'>
+  <div  align = 'center' style = 'font-family:Open Sans;font-size: 17pt;
+  position:relative; top:140px;'>
+    <h1>STATUS OF YOUR VOUCHER</h1>
+    <table style = 'font-family:Open Sans;font-size: 17pt;position:relative;
+    top:20px;' align = 'center'>
+      <tr>
+        <th VALIGN = Top Align = Left> VOUCHER CODE</th>
+        <td VALIGN = Middle Align = Right>{{code}}</td>
+      </tr>
+      <tr>
+        <th VALIGN = Top Align = Left> VALIDITY</th>
+        <td VALIGN = Middle Align = Right>{{status}}</td>
+      </tr>
+      <tr>
+        <th VALIGN = Top Align = Left> DISCOUNT</th>
+        <td VALIGN = Middle Align = Right>{{discount}}</td>
+      </tr>
+    </table>
+    <p style = 'position:relative; top: 30px'>{{acceptance}}</p>
+    <input type=button value="GO BACK" onClick="javascript:history.go(-1);"
+    style='position:relative; top:50px;
+    font-size: 17pt; background-color: #02141a; padding: 10px 24px;
+    color:white;border-radius: 8px;'/>
+  </div>
+</body>
+</html>
