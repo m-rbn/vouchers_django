@@ -1,6 +1,4 @@
-'''This module register the Voucher model to the vouchers app'''
-from django.contrib import admin
-from .models import Voucher
+'''No model is used currently so is commented out for future use'''
+#from django.contrib import admin
 
-# Register voucher model
-admin.site.register(Voucher)
+# Register your models here.
