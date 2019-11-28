@@ -1,9 +1,9 @@
+'''This module definws the url pattern for voucher app'''
 from django.urls import path
-
 from vouchers import views as vouchers_views
 
 # define urlpatterns
 urlpatterns = [
-    path('vouchers/', vouchers_views.RenderForm),
-    path('voucher_status/', vouchers_views.RenderForm)
+    path('vouchers/', vouchers_views.render_form),
+    path('voucher_status/', vouchers_views.render_form)
 ]
