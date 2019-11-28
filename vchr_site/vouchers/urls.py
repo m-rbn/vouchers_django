@@ -4,6 +4,6 @@ from vouchers import views as vouchers_views
 
 # define urlpatterns
 urlpatterns = [
-    path('vouchers/', vouchers_views.render_form),
-    path('voucher_status/', vouchers_views.render_form)
+    path('vouchers/', vouchers_views.render_form, name='vouchers'),
+    path('voucher_status/', vouchers_views.render_form, name='voucher_status')
 ]
