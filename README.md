@@ -16,7 +16,7 @@ There are two apps in this project which is home and vouchers.
 
 ***home***: The home page containing links for admin login and voucher validation.
 
-***vouchers***: A form to query the database for voucher information.
+***vouchers***: A form to query the database for voucher information. Entering a valid voucher code would return voucher information.
 
 # ADMIN CREDENTIALS
 Below is the username and password needed to login as admin. Note: Both are case sensitive.
