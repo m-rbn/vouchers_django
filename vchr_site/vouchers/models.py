@@ -1,4 +1,4 @@
-''This module contains the  Voucher model used by the vouchers app'''
+'''This module contains the  Voucher model used by the vouchers app'''
 from django.db import models
 
 # Voucher code
@@ -54,4 +54,6 @@ class Voucher(models.Model):
             self.save()
             n_left = str(self.usage_limit_field-self.usage_no_field)
             accept_str = '* Voucher accepted. Can be reused '+ n_left + ' more times.'                                                          return accept_str                                                                                                               not_accept_str = '* Voucher not accepted. Exceeded voucher usage limits.'
+            return accept_str
+        not_accept_str = '* Voucher not accepted. Exceeded voucher usage limits.'
         return not_accept_str
