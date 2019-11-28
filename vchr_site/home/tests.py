@@ -1,4 +1,4 @@
-''This module contains tests for home app'''
+'''This module contains tests for home app'''
 from django.test import SimpleTestCase
 from django.urls import reverse
 
