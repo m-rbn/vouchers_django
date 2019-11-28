@@ -1,5 +1,6 @@
+'''Configuration module for vouchers app'''
 from django.apps import AppConfig
 
-
-class HomeConfig(AppConfig):
-    name = 'home'
+class VouchersConfig(AppConfig):
+    '''configuration class for vouchers app'''
+    name = 'vouchers'
