@@ -2,6 +2,7 @@
 <p align="center" style = "font-size:30">
   <b> VOUCHER CODES VERIFICATION [DJANGO] </b><br>
   <i> M. Ruben (Last updated: November 2019) </i><br>
+  <a href=https://github.com/m-rbn/vouchers_django/blob/master/README.md#apps>APPS</a>
 </p>
 <hr>
 <p>This repository is intended for the documentation of a Django project requested during a job application process. 
