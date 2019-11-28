@@ -28,19 +28,19 @@ Below is the username and password needed to login as admin. Note: Both are case
 # VOUCHER CODES 
 Below are two existing voucher codes in the database.
 
-***code***: q1w2e
+***Code***: q1w2e
  
-***discount rate***: RM10 
+***Discount Rate***: RM10 
 
-***usage limit***: 3 times 
+***Usage Limit***: 3 times 
 
 <br> 
 
-***code***: a1s2d 
+***Code***: a1s2d 
 
-***discount rate***: 10% 
+***Discount Rate***: 10% 
 
-***usage limit***: 3 times
+***Usage Limit***: 3 times
 
 
 
