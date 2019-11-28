@@ -14,7 +14,7 @@ Using the same code for more than 3 times would result in the voucher code being
 # APPS
 There are two apps in this project which is home and vouchers.
 
-*home*: The home page containing links for admin login and voucher validation.
+***home***: The home page containing links for admin login and voucher validation.
 
-*vouchers*: A form to query the database for voucher information.
+***vouchers***: A form to query the database for voucher information.
 
