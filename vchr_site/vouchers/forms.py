@@ -1,4 +1,4 @@
 from django import forms
 
 class vchr_form(forms.Form):
-    code_input =  forms.IntegerField(label = 'CODE')
+    code_input = forms.IntegerField(label = 'CODE')
