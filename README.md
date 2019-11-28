@@ -2,7 +2,7 @@
 <p align="center" style = "font-size:30">
   <b> VOUCHER CODES VERIFICATION [DJANGO] </b><br>
   <i> M. Ruben (Last updated: November 2019) </i><br>
-  <a href=https://github.com/m-rbn/vouchers_django/blob/master/README.md#apps>APPS</a> 
+  <a href=https://github.com/m-rbn/vouchers_django/blob/master/README.md#apps>[APPS]</a> 
   <a href=https://github.com/m-rbn/vouchers_django/blob/master/README.md#admin-credentials>CREDENTIALS</a>
   <a href=https://github.com/m-rbn/vouchers_django/blob/master/README.md#voucher-codes>CODES</a> 
   <a href=https://github.com/m-rbn/vouchers_django/blob/master/README.md#requirements>REQUIREMENTS</a>
