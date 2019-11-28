@@ -50,10 +50,11 @@ class Voucher(models.Model):
 
     def accept(self):
         '''Method to show whether voucher is accepted or not'''
-        if self.validate() == 'Valid':                                                                                                          self.usage_no_field += 1
+        if self.validate() == 'Valid':
+            self.usage_no_field += 1                                                                                                                      
             self.save()
             n_left = str(self.usage_limit_field-self.usage_no_field)
-            accept_str = '* Voucher accepted. Can be reused '+ n_left + ' more times.'                                                          return accept_str                                                                                                               not_accept_str = '* Voucher not accepted. Exceeded voucher usage limits.'
+            accept_str = '* Voucher accepted. Can be reused '+ n_left + ' more times.'
             return accept_str
         not_accept_str = '* Voucher not accepted. Exceeded voucher usage limits.'
         return not_accept_str
