@@ -42,6 +42,15 @@ Below are two existing voucher codes in the database.
 
 ***Usage Limit***: 3 times
 
+# REQUIREMENTS 
+Below are the requirements for this Django project: 
+Django==2.2.7
+
+pytz==2019.3
+
+sqlparse==0.3.0
+
+This can also be found in requirements.txt located in the vchr_site folder.
 
 
 
