@@ -1,6 +1,6 @@
-'''Configuration module for vouchers app'''
+'''Configuration module for home app'''
 from django.apps import AppConfig
 
-class VouchersConfig(AppConfig):
-    '''configuration class for vouchers app'''
-    name = 'vouchers'
+class HomeConfig(AppConfig):
+    '''home app config class'''
+    name = 'home'
