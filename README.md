@@ -19,7 +19,7 @@ There are two apps in this project which is home and vouchers.
 ***vouchers***: A form to query the database for voucher information. Entering a valid voucher code would return voucher information.
 
 # ADMIN CREDENTIALS
-Below is the username and password needed to login as admin. Note: Both are case sensitive.
+Below is the username and password needed to login as admin. Note: *Both are case sensitive.*
 
 ***Username***: site-admin 
 
