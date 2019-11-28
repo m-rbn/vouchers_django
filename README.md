@@ -12,4 +12,4 @@ Using the same code for more than 3 times would result in the voucher code being
 </html>
 
 # APPS
-This Django project consist of two apps: home and vouchers
+This Django project consist of two apps: home and vouchers.
