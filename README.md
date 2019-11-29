@@ -48,6 +48,7 @@ Below are two existing voucher codes in the database.
 
 # REQUIREMENTS 
 Below are the requirements for this Django project: 
+
 Django==2.2.7
 
 pytz==2019.3
