@@ -33,7 +33,7 @@ class Voucher(models.Model):
         return code_str
 
     def validate(self):
-        '''Validate method to check validity of boucher code'''
+        '''Validate method to check validity of voucher code'''
         if self.usage_no_field >= self.usage_limit_field:
             return 'Invalid'
         return 'Valid'
@@ -51,7 +51,7 @@ class Voucher(models.Model):
     def accept(self):
         '''Method to show whether voucher is accepted or not'''
         if self.validate() == 'Valid':
-            self.usage_no_field += 1                                                                                                                      
+            self.usage_no_field += 1
             self.save()
             n_left = str(self.usage_limit_field-self.usage_no_field)
             accept_str = '* Voucher accepted. Can be reused '+ n_left + ' more times.'
