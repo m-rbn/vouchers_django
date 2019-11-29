@@ -8,7 +8,7 @@ class VouchersPageTests(SimpleTestCase):
     '''
     Tests:
         test_vouchers_status_code: Checks for successful http request.
-        test_view_url_name: Checks for succesful http request whe>
+        test_view_url_name: Checks for succesful http request when using url name>
         test_view_correct_template: Check if correct template is >
 
     '''
