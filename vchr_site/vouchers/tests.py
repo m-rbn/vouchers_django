@@ -38,7 +38,7 @@ class VouchersModelTests(TestCase):
         test_str: Check for correct string representation
         test_validate_code: Check for correct string returned for validate() method
         test_discount_rate: Check for correct string returned for discount_rate() method
-        test_accept_rate: Check for correct string returned for accept() method
+        test_accept: Check for correct string returned for accept() method
 
     '''
 
@@ -90,3 +90,18 @@ class VouchersModelTests(TestCase):
         rm_discount = Voucher.objects.get(code_field='q1w2e')
         pct_discount = Voucher.objects.get(code_field='q3w4e')
         invalid_discount = Voucher.objects.get(code_field='q2w3e')
+        self.assertEqual(rm_discount.discount_rate(), 'RM10 off')
+        self.assertEqual(pct_discount.discount_rate(), '10% off')
+        self.assertEqual(invalid_discount.discount_rate(), 'N/A')
+
+    def test_accept(self):
+        '''
+        Check for correct string returned from accept() method
+
+        '''
+
+        accept_code = Voucher.objects.get(code_field='q1w2e')
+        not_accept_code = Voucher.objects.get(code_field='q2w3e')
+        self.assertEqual(accept_code.accept(), '* Voucher accepted. Can be reused 2 more times.')
+        self.assertEqual(not_accept_code.accept(),
+                         '* Voucher not accepted. Exceeded voucher usage limits.')
