@@ -55,7 +55,11 @@ pytz==2019.3
 
 sqlparse==0.3.0
 
-This can also be found in requirements.txt located in the vchr_site folder.
+This can also be found in requirements.txt located in the vchr_site folder. Install it in your virtual environment using:
+
+```python
+pip install -r requirements.txt
+```
 
 
 
