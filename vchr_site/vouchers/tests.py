@@ -68,7 +68,7 @@ class VouchersModelTests(TestCase):
         '''
 
         str_code = Voucher.objects.get(code_field='q1w2e')
-        self.assertEqual(str_code.__str__(), 'CODE:q1w2e')
+        self.assertEqual(str_code.__str__(), 'CODE :q1w2e')
 
     def test_validate_code(self):
         '''
