@@ -6,7 +6,7 @@ class HomePageTests(SimpleTestCase):
     '''
     Tests:
         test_home_status_code: Checks for succesful http request.
-        test_view_url_name: Checks for succesful http request when using u>
+        test_view_url_name: Checks for succesful http request when using url name>
         test_view_correct_template: Check if correct template is used.
 
     '''
