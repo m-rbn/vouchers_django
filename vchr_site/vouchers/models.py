@@ -29,7 +29,7 @@ class Voucher(models.Model):
 
 
     def __str__(self):
-        code_str = 'CODE:' + str(self.code_field)
+        code_str = 'CODE: ' + str(self.code_field)
         return code_str
 
     def validate(self):
